@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="./estilo_instrucoes.css">
+  <title>Métodos DOM</title>
+
+</head>
+
+<body>
+  <h1>Métodos DOM</h1>
+  <div class="flex-container">
+    <p>
+      Quando utilizamos o DOM todos os elementos HTML são considerados Objetos e
+      deta forma é possível manipularmos esses objetos utilizando JavaScript.
+      As propriedades DOM são valores de elementos HTML que você pode definir,
+      alterar ou manipular da forma que desejar. <br>
+      Neste exemplo será utilizado um
+      <b>método</b> (<code>GetElementById</code>) que vai interagir com um
+      <b>valor</b> (<code>innerHTML</code>)
+    </p>
+    <b>Exemplo:</b>
+    <ul>
+      <li id="original">Este é o texto original</li>
+      <li id="modificado">Este é o texto original</li>
+    </ul>
+    <script>
+      document.getElementById("modificado").innerHTML =
+        "Este é o texto modificado";
+    </script>
+    <p>
+      No código, ambos os elementos acima tem o mesmo valor, ambos tem a frase
+      'Este é o texto original', porém, o segundo elemento foi modificado com o
+      <code>innerHTML</code> e definido como 'Este é o texto modificado'
+    </p>
+  </div>
+
+  <div class="flex-container">
+    <b>Como foi feito:</b>
+    <p>
+      Foi criado um paragrafo e atribuido o <u>id</u>="modificado"<br>
+      Utilizamos o <code>getElementById</code> e incluimos o id<br>
+      Utilizamos o <code>innerHTML</code> e definimos o texto "Este é o texto modificado"<br>
+    </p>
+  </div>
+  <img id="img" src="./Imagens/metodos_DOM.png" alt="Descrição do código">
+</body>
+
+</html>

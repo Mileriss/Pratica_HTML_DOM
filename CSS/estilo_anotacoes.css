@@ -18,6 +18,11 @@ code {
   margin-left: 1%;
 }
 
+.blocos{
+  border: 2.5px solid black;
+  margin: 1%;
+}
+
 #img {
   display: flex;
   height: 15em;

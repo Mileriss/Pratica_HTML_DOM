@@ -10,11 +10,11 @@ body {
     color: lightsteelblue;
   }
   
-  .flex-container {
+  .flex-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: flex-start;
     margin-left: 1%;
   }
 
